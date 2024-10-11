@@ -1,0 +1,13 @@
+{
+  "name": "Jump Jump",
+  "description": "Jump permission confirm page",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://weibo.cn/sinaurl?u=*"],
+      "run_at": "document_start",
+      "js": ["scripts/content-script.js"]
+    }
+  ]
+}
