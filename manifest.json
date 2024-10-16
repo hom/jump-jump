@@ -7,7 +7,12 @@
     {
       "matches": ["https://weibo.cn/sinaurl?u=*"],
       "run_at": "document_start",
-      "js": ["scripts/content-script.js"]
+      "js": ["scripts/weibo.js"]
+    },
+    {
+      "matches": ["https://link.juejin.cn/?target=*"],
+      "run_at": "document_start",
+      "js": ["scripts/juejin.js"]
     }
   ]
 }
