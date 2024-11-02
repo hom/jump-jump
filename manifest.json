@@ -13,6 +13,11 @@
       "matches": ["https://link.juejin.cn/?target=*"],
       "run_at": "document_start",
       "js": ["scripts/juejin.js"]
+    },
+    {
+      "matches": ["https://link.zhihu.com/?target=*"],
+      "run_at": "document_start",
+      "js": ["scripts/zhihu.js"]
     }
   ]
 }
