@@ -18,6 +18,11 @@
       "matches": ["https://link.zhihu.com/?target=*"],
       "run_at": "document_start",
       "js": ["scripts/zhihu.js"]
+    },
+    {
+      "matches": ["https://www.yuque.com/r/goto?url=*"],
+      "run_at": "document_start",
+      "js": ["scripts/yuque.js"]
     }
   ]
 }
