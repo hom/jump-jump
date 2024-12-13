@@ -7,22 +7,22 @@
     {
       "matches": ["https://weibo.cn/sinaurl?u=*"],
       "run_at": "document_start",
-      "js": ["scripts/weibo.js"]
+      "js": ["scripts/weibo.cn.js"]
     },
     {
       "matches": ["https://link.juejin.cn/?target=*"],
       "run_at": "document_start",
-      "js": ["scripts/juejin.js"]
+      "js": ["scripts/link.juejin.cn.js"]
     },
     {
       "matches": ["https://link.zhihu.com/?target=*"],
       "run_at": "document_start",
-      "js": ["scripts/zhihu.js"]
+      "js": ["scripts/link.zhihu.com.js"]
     },
     {
       "matches": ["https://www.yuque.com/r/goto?url=*"],
       "run_at": "document_start",
-      "js": ["scripts/yuque.js"]
+      "js": ["scripts/www.yuque.com.js"]
     }
   ]
 }
